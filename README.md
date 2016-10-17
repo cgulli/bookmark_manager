@@ -22,4 +22,4 @@ So that I can find related links
 I want to filter the links by tags
 ```
 
-![User Stories Diagram](local/image.jpg)
+![User Stories Diagram](image.jpg)
