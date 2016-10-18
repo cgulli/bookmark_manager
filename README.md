@@ -21,3 +21,5 @@ As a User
 So that I can find related links
 I want to filter the links by tags
 ```
+
+![User Stories Diagram](image.jpeg)
