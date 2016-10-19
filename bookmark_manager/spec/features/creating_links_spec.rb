@@ -1,4 +1,11 @@
 require 'spec_helper.rb'
+require 'database_cleaner'
+
+DatabaseCleaner.clean_with :truncation
+
+DatabaseCleaner.strategy = :transaction
+
+DatabaseCleaner.start
 
 feature 'add links' do
   scenario 'adds links to the database' do
@@ -9,3 +16,4 @@ feature 'add links' do
     expect(page).to have_content "Google"
   end
 end
+DatabaseCleaner.clean
