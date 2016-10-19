@@ -1,5 +1,7 @@
 require 'spec_helper.rb'
-#require './app/models/link'
+require 'database_cleaner'
+
+
 feature 'print links' do
   scenario 'prints links on the homepage' do
     Link.create(url: 'http://www.makersacademy.com', title: 'Makers Academy')
